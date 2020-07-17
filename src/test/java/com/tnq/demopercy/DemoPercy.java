@@ -16,6 +16,7 @@ public class DemoPercy {
 		driver.get("http://practice.automationtesting.in/");
 
 		driver.findElement(By.xpath("//*[text()='My Account']")).click();
+		driver.close();
 
 	}
 
